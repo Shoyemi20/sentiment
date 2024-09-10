@@ -268,13 +268,62 @@ h1 {
 
 
 
+/* Result */
 
+h2 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 0% 0;
+  text-align: center;
+  margin: 0 0 2px 0; /* Margin below the heading */
+  font-size: 25px; /* Font size for the heading */
+  color: #ffffff; /* Color for the heading */
+}
 
+h6 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 0% 0;
+  text-align: center;
+  margin: 0 0 2px 0; /* Margin below the heading */
+  font-size: 25px; /* Font size for the heading */
+  color: #ffffff; /* Color for the heading */
+  margin: 0;
+  font-size: 16px; /* Font size for the paragraph */
+  color: #ffffff; /* Color for the paragraph text */
+  line-height: 1.5; /* Line height for readability */
+}
 
+    .graph1 {
+      width: 5px; /* Set a small fixed width */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 5%; /* Responsive to container width */
+      margin-bottom: 10px; /* Space between the image and other elements */
+      border: 2px solid #000000; /* Optional border */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional subtle shadow for depth */
+      display: block; /* Ensures it behaves as a block element */
+      box-sizing: border-box; /* Include padding and border in element's total size */
+      background-color: #000000; /* Optional background color for visibility */
+      padding: 5px; /* Optional padding inside the box */
+    }
+    
 
-
-
-
+  
+    .graph2 {
+      width: 5px; /* Set a small fixed width */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 5%; /* Responsive to container width */
+      margin-bottom: 10px; /* Space between the image and other elements */
+      border: 2px solid #000000; /* Optional border */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional subtle shadow for depth */
+      display: block; /* Ensures it behaves as a block element */
+      box-sizing: border-box; /* Include padding and border in element's total size */
+      background-color: #000000; /* Optional background color for visibility */
+      padding: 5px; /* Optional padding inside the box */
+    }
+    
 /*
 footer {
   background-color: #333;
