@@ -1,0 +1,278 @@
+/* General Styling*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+  }
+
+
+ /* Home */
+  main{
+  width:100%;
+  height:400px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./Rectangle\ 3.png);
+  position: relative;
+  z-index: -1;
+}
+h1 {
+position: absolute;
+top: 50%; 
+right: 10px; 
+transform: translateY(-50%);
+font-family:'Lato';
+font-size: 3.7rem;
+margin:0px;
+letter-spacing: 2px;
+color:#000000;
+line-height: 2;
+}
+
+/* Flexbox container styling to center h3 */
+#line {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  background-color: #ffffff; /* Optional background color */
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Style the h3 heading */
+h3 {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Box styling */
+.image-container {
+  display: flex;
+  gap: 10px; /* Space between images */
+}
+
+.image-box {
+  width: 33.3%; /* One fourth of the page */
+  height: 33.3%; /* One fourth of the page */
+  background-color: #697e9500;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  gap: 10px;
+  object-fit: cover;
+  background-image: url(./Rectangle\ 4.png);
+  background-size: cover; /* Make background image cover the box */
+  background-position: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Text styling inside the box */
+.box-text {
+  font-size: 16px;
+  color: #fff; /* White text for contrast on image */
+  position: relative;
+  z-index: 2; /* Ensures the text is above the background */
+}
+
+/* Small icon styling */
+.small-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 2; /* Ensures the icon is above the background */
+  margin-top: 10px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1c53a7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #8ea9d2;
+}
+
+/* Login */
+#login {
+  margin:0px;
+    padding: 0px;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.login-image {
+  width: 100%; /* Makes the image responsive to container width */
+  max-width: 100%; /* Maximum width */
+  height: auto; /* Maintains aspect ratio */
+  margin-bottom: 20px; /* Space between image and form */
+}
+
+.welcome-text {
+  margin-bottom: 100px; /* Space between text and form */
+}
+
+.welcome-text h2 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 0% 0;
+  text-align: center;
+  margin: 0 0 2px 0; /* Margin below the heading */
+  font-size: 25px; /* Font size for the heading */
+  color: #ffffff; /* Color for the heading */
+}
+
+.welcome-text p {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 0% 0;
+  text-align: center;
+  margin: 0 0 2px 0; /* Margin below the heading */
+  font-size: 25px; /* Font size for the heading */
+  color: #ffffff; /* Color for the heading */
+  margin: 0;
+  font-size: 16px; /* Font size for the paragraph */
+  color: #ffffff; /* Color for the paragraph text */
+  line-height: 1.5; /* Line height for readability */
+}
+
+.login-form {
+    padding: 1px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+  .button-group {
+    display: flex;
+    flex-direction: column; /* Arrange buttons in a column */
+    gap: 20px; /* Space between buttons */
+    align-items: center; /* Center align buttons horizontally */
+  }
+  
+
+
+.btn {
+  padding: 20px 200px;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-btn {
+  background-color: #1c53a7; /* Blue color for email button */
+}
+
+.google-btn {
+  background-color: #453333 /* Google red color */
+}
+
+.login-btn {
+  
+  background-color: #6d9b78; /* Green color for login button */
+}
+
+.btn:hover {
+  opacity: 0.9; /* Slightly change opacity on hover */
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* later
+
+
+
+.login-form, .text-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form label, .text-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-form input, .text-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+ */
