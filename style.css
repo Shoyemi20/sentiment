@@ -209,64 +209,73 @@ h1 {
   opacity: 0.9; /* Slightly change opacity on hover */
 }
 
-
-  
-
+/* Text */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* later
-
-
-
-.login-form, .text-form {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* White background for the container */
+  padding: 30px; /* Add padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 90%; /* Responsive width */
+  max-width: 500px; /* Maximum width for larger screens */
 }
 
-.login-form label, .text-form label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
+.text-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  width: 100%; /* Full width of the container */
 }
 
-.login-form input, .text-form textarea {
-  width: 100%;
-  padding: 10px;
+.text-form h4 {
+  color: #b2beb5;
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: left; /* Center the heading */
+}
+
+.text-form textarea {
+  width: 95%; /* Full width */
+  padding: 100px; /* Padding inside textarea */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border around textarea */
+  margin-bottom: 20px; /* Space below textarea */
+  resize: none; /* Prevent resizing */
+  font-size: 20px; /* Font size */
+}
+.text-form p {
+  color: #b2beb5;
+  font-size: small;
+  text-align: center;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+}
+.text-form button {
+  padding: 10px 50px; /* Button padding */
+  border: none; /* Remove default border */
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+  font-size: 15px; /* Font size */
+  border-radius: 200px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.text-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
-button:hover {
-  background-color: #0056b3;
-}
 
+
+
+
+
+
+
+
+
+/*
 footer {
   background-color: #333;
   color: #fff;
