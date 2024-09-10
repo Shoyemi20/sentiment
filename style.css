@@ -297,31 +297,23 @@ h6 {
 }
 
     .graph1 {
-      width: 5px; /* Set a small fixed width */
-      height: auto; /* Maintain aspect ratio */
-      max-width: 5%; /* Responsive to container width */
-      margin-bottom: 10px; /* Space between the image and other elements */
-      border: 2px solid #000000; /* Optional border */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional subtle shadow for depth */
-      display: block; /* Ensures it behaves as a block element */
-      box-sizing: border-box; /* Include padding and border in element's total size */
-      background-color: #000000; /* Optional background color for visibility */
-      padding: 5px; /* Optional padding inside the box */
+      .login-image {
+        width: 100%; /* Makes the image responsive to container width */
+        max-width: 100%; /* Maximum width */
+        height: auto; /* Maintains aspect ratio */
+        margin-bottom: 20px; /* Space between image and form */
+      }
     }
     
 
   
     .graph2 {
-      width: 5px; /* Set a small fixed width */
-      height: auto; /* Maintain aspect ratio */
-      max-width: 5%; /* Responsive to container width */
-      margin-bottom: 10px; /* Space between the image and other elements */
-      border: 2px solid #000000; /* Optional border */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional subtle shadow for depth */
-      display: block; /* Ensures it behaves as a block element */
-      box-sizing: border-box; /* Include padding and border in element's total size */
-      background-color: #000000; /* Optional background color for visibility */
-      padding: 5px; /* Optional padding inside the box */
+      .login-image {
+        width: 100%; /* Makes the image responsive to container width */
+        max-width: 100%; /* Maximum width */
+        height: auto; /* Maintains aspect ratio */
+        margin-bottom: 20px; /* Space between image and form */
+      }
     }
     
 /*
