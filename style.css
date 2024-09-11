@@ -25,6 +25,7 @@ body{
   background-image: url(./Rectangle\ 3.png);
   position: relative;
   z-index: -1;
+  background-size: cover;
 }
 h1 {
 position: absolute;
@@ -92,15 +93,6 @@ h3 {
   position: relative;
   z-index: 2; /* Ensures the text is above the background */
 }
-
-/* Small icon styling */
-.small-icon {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  z-index: 2; /* Ensures the icon is above the background */
-  margin-top: 10px;
-}
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -166,6 +158,7 @@ h3 {
     padding: 1px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px; /* Negative margin to move it up */
 }
 
 h1 {
@@ -305,8 +298,6 @@ h6 {
       }
     }
     
-
-  
     .graph2 {
       .login-image {
         width: 100%; /* Makes the image responsive to container width */
@@ -316,13 +307,148 @@ h6 {
       }
     }
     
-/*
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  margin-top: auto;
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #1c53a7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    
+    .button:hover {
+      background-color: #8ea9d2;
+    }
+    
+
+/* Footer */
+    footer {
+      position: fixed; /* Fixes the footer at the bottom of the page */
+      bottom: 0; /* Positions the footer at the bottom */
+      left: 0; /* Aligns it to the left */
+      width: 100%; /* Full width of the page */
+      background-color: #333; /* Background color */
+      color: #fff; /* Text color */
+      text-align: center; /* Center-align text */
+      padding: 5px 0; /* Smaller padding for a smaller footer */
+      font-size: 12px; /* Smaller font size */
+      box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow above the footer */
+    }
+    
+    footer h7 {
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove padding */
+    }
+   
+
+
+    /* Mobile View Optimizations */
+@media (max-width: 768px) {
+  /* Adjustments for the main section */
+  main {
+    height: 300px; /* Reduced height for smaller screens */
+    background-size: contain; /* Adjust background size */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Smaller font size */
+    right: 3%; /* Adjusted position */
+    top: 20%; /* Adjusted vertical position */
+    letter-spacing: 1px; /* Reduced letter spacing */
+  }
+
+
+  /* Flexbox container styling for small screens */
+  #line {
+    padding: 0.5rem 0; /* Reduced padding */
+  }
+
+  /* Style the h3 heading for mobile */
+  h3 {
+    font-size: 18px; /* Smaller font size */
+    margin-bottom: 10px; /* Reduced margin */
+    margin-top: -120px; /* Negative margin to move it up */
+  }
+
+  /* Image box container adjustments */
+  .image-container {
+    flex-direction: column; /* Stack boxes vertically */
+    gap: 15px; /* Increased gap between boxes */
+  }
+
+  .image-box {
+    width: 100%; /* Full width */
+    padding: 10px; /* Reduced padding */
+  }
+
+  /* Button styling */
+
+  .button {
+    padding: 8px 15px; /* Smaller padding */
+    font-size: 14px; /* Smaller font size */
+    margin-top: -20px; /* Slightly move up */
+    position: relative; /* Keep position relative for safe adjustment */
+    z-index: 10; /* Bring button above other elements, if needed */
+  }
+
+  /* Login */
+  /* Login form adjustments */
+  .login-form {
+    padding: 20px; /* Increased padding for better spacing */
+    margin-top: -50px; /* Negative margin to move it up */
+  }
+
+  .button-group {
+    gap: 10px; /* Reduce gap between buttons */
+  }
+
+  .btn {
+    padding: 10px 100px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
+  }
+
+  /* Text form adjustments */
+  .container {
+    width: 95%; /* Wider width for better use of screen space */
+    max-width: 100%; /* Remove max-width to allow full width */
+    padding: 20px; /* Reduced padding */
+  }
+
+  .text-form h4 {
+    text-align: center; /* Center align heading */
+  }
+
+  .text-form textarea {
+    width: 100%; /* Full width for smaller screens */
+    padding: 20px; /* Adjusted padding */
+  }
+
+  .text-form button {
+    padding: 8px 30px; /* Smaller padding */
+    font-size: 14px; /* Smaller font size */
+  }
+
+  /* Result section adjustments */
+  h2 {
+    font-size: 40px; /* Smaller font size for headings */
+  }
+
+  h6 {
+    font-size: 20px; /* Smaller font size for headings */
+  }
+
+  /* Graph adjustments for mobile */
+  .graph1, .graph2 {
+    width: 80%; /* Larger width */
+    max-width: 100%; /* Ensure responsiveness */
+    margin: 0 auto 20px; /* Center align and add margin */
+  }
+
+  /* Footer adjustments */
+  footer {
+    font-size: 10px; /* Smaller font size */
+    padding: 3px 0; /* Reduced padding */
+  }
 }
 
- */
+ 
